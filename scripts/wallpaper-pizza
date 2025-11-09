@@ -1,0 +1,3 @@
+#!/bin/sh
+wallpaper=~/wallpaper
+nsxiv -r -q -o -t -b $wallpaper  | xargs xwallpaper --zoom
